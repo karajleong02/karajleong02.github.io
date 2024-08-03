@@ -1,0 +1,32 @@
+.card-img-top-wrapper{
+    position:relative;
+  }
+  .card-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .25s ease;
+      background: rgba(0, 0, 0, 0.5);
+      
+      flex-direction: column;
+      
+    }
+.content {
+    position:relative;
+    padding-bottom: 1rem;
+    padding-top: 15rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+  }
+
+  a {
+    text-decoration: none;
+  }

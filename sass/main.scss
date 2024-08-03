@@ -1,0 +1,30 @@
+$white: #ffffff;
+
+$theme-colors: (
+    "light":      #d0d0eb,
+    "dark":       #2c3750,
+    "primary":    #392765,
+    "secondary":  #b35e8c,
+    "info":       #ecb5a8,
+    "success":    #b6edff,
+    "warning":    #e0cd36,
+    "danger":     #eb301e,
+);
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+);
+
+
+$offcanvas-horizontal-width: 35rem;
+$offcanvas-padding-x: 2rem;
+$offcanvas-padding-y: 2rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
