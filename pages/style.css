@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Mega:wght@600;800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 .card-img-top-wrapper{
     position:relative;
   }
@@ -10,7 +12,7 @@
       width: 100%;
       opacity: 0;
       transition: .25s ease;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.4);
       
       flex-direction: column;
       
@@ -30,3 +32,10 @@
   a {
     text-decoration: none;
   }
+
+  html {
+    font-size: 18px;
+    font-family: "Plus Jakarts Sans", sans-serif;
+  }
+
+  

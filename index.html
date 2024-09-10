@@ -4,6 +4,7 @@
         <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./portfolio-html/css/main.css">
         <link rel="stylesheet" href="./pages/style.css">
+        
         <title>Home</title>
     </head>
     <body>
@@ -24,22 +25,23 @@
             </div>
         </nav>
         <div class="container">
-            <div class="row align-items-center justify-content-between m-6">
+            <div class="row align-items-center justify-content-between m-6 mt-1">
                 <div class="col-7">
                     <p class="lead">Hi, my name is</p>
-                    <h1 class="display-2 text-primary">Kara Leong</h1>
-                    <p class="lead">I'm a 4th year Computer Science student at Georgia Tech, passionate about front-end development and UI/UX design.</p>
+                    <h1 class="display-2 text-info">Kara Leong</h1>
+                    <p class="lead">I'm a 5th year Computer Science student at Georgia Tech, passionate about front-end development and UI/UX design.</p>
                 </div>
                 <div class="col-5 text-end">
-                    <img src="content/IMG_0165.JPG" width = "400rem">
+                    <img src="content/IMG_0165.png" width = "400rem">
                 </div>
             </div> 
             <div class="m-6" id="about">
-                <h2 id="about">Who I Am</h2>
+                <h2 class="text-info" id="about">Who I Am</h2>
                 <p>I am a computer science major concentrating in Media and People that allows me to pursue my interests in front-end development and user 
-                    interface design. In my free time, I enjoy playing different sports like golf, spikeball, and volleyball, and searching for good food 
+                    interface design. In my free time, I enjoy playing different sports like golf, pickleball, and volleyball, and searching for good food 
                     to post on my food instagram. I also enjoy expressing myself through calligraphy, photography when I travel, and music.</p>
-                <div class="row justify-content-center">
+                <p>I like to code with:</p>
+                <div class="row justify-content-center align-items-end">
                     <div class="col-1">
                         <figure class="figure">
                             <img src="content/icons8-react-75.png" class="img-fluid">
@@ -83,18 +85,24 @@
                         </figure>
                     </div>
                 </div>
-                    
+                <a class="icon-link icon-link-hover text-end link-secondary" href="pages/experience.html">
+                    View My Experience
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </a>   
             </div>
             <div class="m-6" id="projects">
                 <h2>My Projects</h2>
                 <div class="row p-2">
-                    <div class="col d-flex justify-content-center">
-                        <div class="card border-0 rounded" style="width: 30em;" href="">
+                    <div class="col d-flex justify-content-between">
+                        <div class="card border-0 rounded" style="width: 27em;" href="">
                             <div class="card-img-top-wrapper">
                               <div class="card-overlay rounded">
                                 <div class="content">
-                                    <h3 class="card-title text-light">Occuvision</h3>
-                                    <p class="card-text text-light">Reduce time that food is waiting to be served in restaurants.</p>
+                                    <h3 class="card-title text-white">Occuvision</h3>
+                                    <p class="card-text text-white">Reduce time that food is waiting to be served in restaurants.</p>
                                     <button class="card-text btn btn-light rounded-pill" type="button">PyTorch</button>
                                 </div>
                               </div>
@@ -103,12 +111,12 @@
                         </div>
                     </div>
                     <div class="col d-flex justify-content-center">
-                        <div class="card border-0 rounded" style="width: 30rem;">
+                        <div class="card border-0 rounded" style="width: 27rem;">
                             <div class="card-img-top-wrapper">
                               <div class="card-overlay rounded">
-                                <div class="content">
-                                    <h3 class="card-title text-light">Carrie's Closet</h3>
-                                    <p class="card-text text-light">Provide clothing and hygiene items for children in need.</p>
+                                <div class="content align-items-end">
+                                    <h3 class="card-title text-white">Carrie's Closet</h3>
+                                    <p class="card-text text-white">Provide clothing and hygiene items for children in need.</p>
                                     <button class="card-text btn btn-light rounded-pill" id='technologies' type="button">Flutter</button>
                                     <button class="card-text btn btn-light rounded-pill" id='technologies' type="button">Firebase</button>
                                 </div>
@@ -128,50 +136,7 @@
                     </a>
                 </div>
             </div>
-            <div class="m-6" id="experience">
-                <h2>My Experience</h2>
-                <div class="row" id="job">
-                    <div class="col-2">
-                        <p>Aug. 2022- Present</p>
-                    </div>
-                    <div class="col-10">
-                        <div>
-                            <h5>CIPHER IT Application Support Co-op</h5>
-                        </div>
-                        <p class="text-break">Developed a React web application to manage and visualize software updates for 300 computers, with a focus on data analytics and graphical representation of key statistics.</p>
-                    </div>
-                </div>
-                <div class="row" id="job">
-                    <div class="col-2">
-                        <p>Aug. 2022- Jul. 2023</p>
-                    </div>
-                    <div class="col-10">
-                        <div>
-                            <h5>Front-End Engineer, Project Manager</h5>
-                        </div>
-                        <p>Designed and developed a Flutter mobile app for a local non-profit to deliver clothing and hygiene items to children within the Atlanta Public School System. Conducted beta testing to identify new features to implement and pain points of the app.</p>
-                    </div>  
-                </div>
-                
-                <div class="row">
-                    <div class="col-2">
-                        <p>Jun. 2022- Aug. 2022</p>
-                    </div>
-                    <div class="col-10">
-                        <div>
-                            <h5>Front-End Software Engineering Intern</h5>
-                        </div>
-                        <p>Implemented a React-based user interface to allow doctors to tailor individualized treatment plans for asthma using survey data. Analyzed user interfaces of competing applicaations to improve the user experience of Vigor's app.</p>
-                    </div>   
-                </div>
-                <a class="icon-link icon-link-hover text-end link-secondary" href="pages/experience.html">
-                    View Resume
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                        <use xlink:href="#arrow-right"></use>
-                    </svg>
-                </a>
-            </div>
+            
             <!--ADD EMAIL WHEN SERVER IS BETTER HOSTED-->
             <!-- <div class="m-6" id="connect">
                 <h1>Let's Connect!</h1>
@@ -207,7 +172,7 @@
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a class="text-body-secondary" href="www.linkedin.com/in/kara-leong">
+                    <a class="text-body-secondary" href="https://www.linkedin.com/in/kara-leong">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="text-secondary" class="bi bi-linkedin" viewBox="0 0 16 16">
                             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
                           </svg>

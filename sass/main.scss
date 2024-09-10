@@ -1,14 +1,14 @@
 $white: #ffffff;
 
 $theme-colors: (
-    "light":      #d0d0eb,
-    "dark":       #2c3750,
-    "primary":    #392765,
-    "secondary":  #b35e8c,
-    "info":       #ecb5a8,
-    "success":    #b6edff,
-    "warning":    #e0cd36,
-    "danger":     #eb301e,
+    "light":      #e3f2ee,
+    "dark":       #080300,
+    "primary":    #004e94,
+    "secondary":  #217bc6,
+    "info":       #6793b6,
+    "success":    #00a45c,
+    "warning":    #e3cb00,
+    "danger":     #f31100,
 );
 
 $spacer: 1rem;
@@ -22,6 +22,10 @@ $spacers: (
   6: $spacer * 5,
 );
 
+body {
+  font: 1rem/1.5 var(--font-family-sans-serif);
+  color: var(--dark);
+}
 
 $offcanvas-horizontal-width: 35rem;
 $offcanvas-padding-x: 2rem;
