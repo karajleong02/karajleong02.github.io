@@ -38,4 +38,9 @@
     font-family: "Plus Jakarts Sans", sans-serif;
   }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
   
